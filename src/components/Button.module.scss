@@ -1,0 +1,16 @@
+.button {
+    border-radius: .25rem;
+    border-color: #007bff;
+    background-color: #007bff;
+    padding: .5rem 1rem;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+
+    @media (any-hover: hover) {
+        &:hover {
+            border-color: #0051a8;
+            background-color: #0051a8;
+        }
+    }
+}

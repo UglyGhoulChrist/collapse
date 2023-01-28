@@ -1,0 +1,16 @@
+.buttons {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: 1fr;
+    max-width: 320px;
+    margin: auto;
+
+    @media (min-width:768px) {
+        grid-template-columns: repeat(3, 1fr);
+        max-width: inherit;
+    }
+
+    &:not(:last-child) {
+        margin-bottom: 1rem;
+    }
+}

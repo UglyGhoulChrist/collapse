@@ -1,0 +1,21 @@
+.list {
+    display: grid;
+    grid-template-columns: 1fr;
+    list-style-type: none;
+    gap: 1rem;
+
+    @media (min-width:768px) {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        max-width: inherit;
+    }
+}
+
+// .list {
+//     display: flex;
+//     flex-direction: column;
+
+//     @media (min-width:768px) {
+//         flex-direction: row;
+//     }
+// }

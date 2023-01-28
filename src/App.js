@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Collapse from "./components/Collapse";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Я потренировался использовать композицию</h1>
+      <Collapse />
+      <div>
+        Если подскажете как сделать чтобы этот текс плавно перемещался
+        вверх/вниз при закрытии/открытии обоих элементов буду признателен.
+      </div>
     </div>
   );
 }
